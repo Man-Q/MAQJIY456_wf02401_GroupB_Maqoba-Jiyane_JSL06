@@ -61,7 +61,7 @@ function addToOrder(itemName) {
 
     // Calculate and update the total price (Assuming each item costs $10)
     let totalPrice = parseFloat(orderTotalElement.textContent) || 0;
-    totalPrice += 10;
+    totalPrice += 60;
 
     // Update the text content of the order total element with the new total
     orderTotalElement.innerHTML = `<b>${totalPrice.toFixed(2)}<b>`;
