@@ -13,7 +13,7 @@ function displayMenuItems(menu) {
     // Loop through each category and its items in the menu object
     for (const category in menu) {
         // Create an element to represent the category
-        const categoryHeading = document.createElement('h2');
+        const categoryHeading = document.createElement('h3');
 
         // Set the text content of the category heading to the category name
         categoryHeading.textContent = category;
